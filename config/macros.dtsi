@@ -16,7 +16,7 @@ label = "macro_spotlt";
 #binding-cells = <0>;
 bindings = <&kp LG(SPACE)>;
 };
-acro_app_win: macro_app_win{
+macro_app_win: macro_app_win{
 compatible = "zmk,behavior-macro";
 label = "macro_app_win";
 #binding-cells = <0>;
