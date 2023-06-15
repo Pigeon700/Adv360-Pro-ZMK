@@ -10,15 +10,15 @@ label = "macro_backticks";
 #binding-cells = <0>;
 bindings = <&kp GRAVE>, <&kp GRAVE>, <&kp LEFT>;
 };
-macro_macro_spotlt: macro_macro_spotlt{
+macro_spotlt: macro_spotlt{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_spotlt";
+label = "macro_spotlt";
 #binding-cells = <0>;
 bindings = <&kp LG(SPACE)>;
 };
-macro_macro_app_win: macro_macro_app_win{
+acro_app_win: macro_app_win{
 compatible = "zmk,behavior-macro";
-label = "macro_macro_app_win";
+label = "macro_app_win";
 #binding-cells = <0>;
 bindings = <&kp LC(DOWN)>;
 };
